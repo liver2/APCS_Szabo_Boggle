@@ -7,3 +7,7 @@ For each word in the dictionary list (Let's use the word "Liver" as an example),
 3. Mark the Tile that was just examined to indicate that one cannot return to that tile. Do Step 2 for the neighboring tile that matches.
 4. Base case: If an equal number of un-returnable tiles exist as the length of the word, the word has been constructed; the boolean can be set to "true".
 To accomodate the possibility of several tile combinations of "LI", for example, recursion is required.
+
+## Alternate Approach
+Construct an array of Strings of length 16 from the board. How many are there? (This would be a good competition math problem!)
+Use a recursive word search method to find dictionary words from this array of Strings.
